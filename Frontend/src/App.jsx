@@ -16,6 +16,7 @@ import Gallery from './pages/Gallery/Gallery';
 import OurTeam from './pages/Our Team/Team';
 import Sponsor from './pages/Sponsor Us/Sponsor';
 import Contact from './pages/Contact Us/Contact';
+import AdminPanel from './pages/Admin/Admin';
 
 // router and routes
 const router = createBrowserRouter(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="team" element={<OurTeam/>}/>
       <Route path="sponsor" element={<Sponsor/>}/>
       <Route path="contact" element={<Contact/>}/>
+      <Route path="admin" element={<AdminPanel/>}/>
     </Route>
   )
 )
