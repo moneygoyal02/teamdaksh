@@ -65,7 +65,7 @@ const Footer = () => {
           <VStack w={{ base: "100%", md: "30%" }} my={{ base : "10px"}} h="auto" textAlign={{ base: "center", md: "left" }}>
             <Text fontSize={fontSize} fontWeight="bold">About Us</Text>
             <Box>
-              <Text>We participate in SAE Collegiate competitions like BAJA SAEINDIA & BAJA SAE International.</Text>
+              <Text>Team Daksh, NIT Jalandhar, has earned top honors in automotive innovation, including national wins and a championship at Asia's biggest solar vehicle event.</Text>
             </Box>
           </VStack>
 
